@@ -6,9 +6,9 @@
      * Date:   2011-02-17T12:42:23.000+01:00
      */
 
-//    (int)$amount    = $_REQUEST["amount"];
-//    $coinTypes = $_REQUEST["coinTypes"];
-//    $coinTypesArr = explode( "|", $coinTypes );
+    $amnt  = $_REQUEST["amount"];
+    $cT    = $_REQUEST["coinTypes"];
+    $cTArr = explode( "|", $coinTypes );
 
     $amount = 13;
     $coinTypesArr = array(3,7);
