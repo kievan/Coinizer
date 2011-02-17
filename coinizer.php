@@ -4,20 +4,6 @@
      * File:   coinizer.php
      * Author: Artyom Gordiyevsky
      * Date:   2011-02-17T12:42:23.000+01:00
-     *
-     * Sample output:
-     *
-        Input:
-        Coin amount: 13
-        Coint types: 3,7
-
-        Output:
-        array(2) {
-          [0]=>
-          string(32) "Coin type: 7, Number of coins: 1"
-          [1]=>
-          string(32) "Coin type: 3, Number of coins: 2"
-        }
      */
 
 //    (int)$amount    = $_REQUEST["amount"];
@@ -70,7 +56,7 @@
 
         /*
          * If the amount manages to be larger than zero, assume the least coin
-         * type could not divide the remaing amoj=unt without remainder.
+         * type could not divide the remaing amount without remainder.
          * Assumming that there will always be 1 unit coins in stock add
          * the final coin type+coin number pair to the collection.
          */

@@ -1,0 +1,15 @@
+Coinizer breaks up coin amount into the smallest possible number of coins.
+
+Sample output:
+
+Input:
+Coin amount: 13
+Coint types: 3,7
+
+Output:
+array(2) {
+  [0]=>
+  string(32) "Coin type: 7, Number of coins: 1"
+  [1]=>
+  string(32) "Coin type: 3, Number of coins: 2"
+}
